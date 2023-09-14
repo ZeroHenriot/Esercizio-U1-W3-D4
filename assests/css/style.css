@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+body{
+  font-family: 'Space Mono', monospace;
+  text-align: center;
+  background-color:bisque
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: bold;
+}
+
+h1{
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#bingo{
+    background-color: bisque;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.number{
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.divsNumber2{
+    width: 70px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+    background-color: rgb(155, 222, 135);
+    border: solid 1px black;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+button{
+    background-color: burlywood;
+    width: 100px;
+    height: 50px;
+    font-size: 1.3em;
+    border-radius: 10px;
+    border: solid 1px rgb(129, 107, 78);
+    box-shadow: 6px 5px rgb(168, 139, 101);
+    margin-top: 10px;
+}
+button:hover{
+background-color:rgb(196, 163, 121) ;
+}
+
+.divsNumber{
+    width: 70px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+    background-color: burlywood;
+    border: solid 1px black;
+    border-radius: 10px;
+    margin: 5px;
+}
